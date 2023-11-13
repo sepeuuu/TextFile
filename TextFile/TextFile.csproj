@@ -64,6 +64,12 @@
     <Compile Include="FrmRegistration.Designer.cs">
       <DependentUpon>FrmRegistration.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmStudentRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStudentRecord.Designer.cs">
+      <DependentUpon>FrmStudentRecord.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmFileName.resx">
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRegistration.resx">
       <DependentUpon>FrmRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStudentRecord.resx">
+      <DependentUpon>FrmStudentRecord.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

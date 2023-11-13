@@ -22,18 +22,18 @@ namespace TextFile
         {
             string[] content =
                 {
-                lbl1.Text.ToString() + txtStudNo.Text,
-                lbl2.Text.ToString() + txtLastName.Text,
-                lbl6.Text.ToString() + txtFirstName.Text,
-                lbl7.Text.ToString() + txtMI.Text,
-                lbl3.Text.ToString() + txtAge.Text,
-                lbl9.Text.ToString() + txtContact.Text,
-                lbl5.Text.ToString() + cbProgram.Text,
-                lbl8.Text.ToString() + cbGender.Text,
-                lbl4.Text.ToString() + dtpBirthday.Value.ToString("yyyy-MM-dd")
+                lbl1.Text.ToString() + " " + txtStudNo.Text,
+                lbl2.Text.ToString() + " " + txtLastName.Text,
+                lbl6.Text.ToString() + " " + txtFirstName.Text,
+                lbl7.Text.ToString() + " " + txtMI.Text,
+                lbl3.Text.ToString() + " " + txtAge.Text,
+                lbl9.Text.ToString() + " " + txtContact.Text,
+                lbl5.Text.ToString() + " " + cbProgram.Text,
+                lbl8.Text.ToString() + " " + cbGender.Text,
+                lbl4.Text.ToString() + " " + dtpBirthday.Value.ToString("yyyy-MM-dd")
             };
 
-            MessageBox.Show("Successfully Registered");
+            MessageBox.Show("Successfully Registered!");
 
 
 
@@ -76,6 +76,12 @@ namespace TextFile
             {
                 cbGender.Items.Add(Gender[i].ToString());
             }
+        }
+
+        private void btnRecords_Click(object sender, EventArgs e)
+        {
+            FrmStudentRecord frmStudRec = new FrmStudentRecord();
+            frmStudRec.ShowDialog(); 
         }
     }
 }

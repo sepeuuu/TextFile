@@ -48,25 +48,26 @@
             this.txtMI = new System.Windows.Forms.TextBox();
             this.cbGender = new System.Windows.Forms.ComboBox();
             this.txtContact = new System.Windows.Forms.TextBox();
+            this.btnRecords = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(36, 39);
+            this.label1.Location = new System.Drawing.Point(21, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(251, 28);
+            this.label1.Size = new System.Drawing.Size(209, 36);
             this.label1.TabIndex = 5;
-            this.label1.Text = "R E G I S T R A T I O N";
+            this.label1.Text = "REGISTRATION\r\n";
             // 
             // lbl1
             // 
             this.lbl1.AutoSize = true;
             this.lbl1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbl1.Location = new System.Drawing.Point(48, 103);
+            this.lbl1.Location = new System.Drawing.Point(24, 98);
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(99, 18);
             this.lbl1.TabIndex = 6;
@@ -77,7 +78,7 @@
             this.lbl2.AutoSize = true;
             this.lbl2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbl2.Location = new System.Drawing.Point(55, 138);
+            this.lbl2.Location = new System.Drawing.Point(31, 133);
             this.lbl2.Name = "lbl2";
             this.lbl2.Size = new System.Drawing.Size(92, 18);
             this.lbl2.TabIndex = 7;
@@ -88,7 +89,7 @@
             this.lbl3.AutoSize = true;
             this.lbl3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbl3.Location = new System.Drawing.Point(100, 173);
+            this.lbl3.Location = new System.Drawing.Point(76, 168);
             this.lbl3.Name = "lbl3";
             this.lbl3.Size = new System.Drawing.Size(47, 18);
             this.lbl3.TabIndex = 8;
@@ -99,7 +100,7 @@
             this.lbl4.AutoSize = true;
             this.lbl4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbl4.Location = new System.Drawing.Point(71, 210);
+            this.lbl4.Location = new System.Drawing.Point(47, 208);
             this.lbl4.Name = "lbl4";
             this.lbl4.Size = new System.Drawing.Size(76, 18);
             this.lbl4.TabIndex = 9;
@@ -110,7 +111,7 @@
             this.lbl5.AutoSize = true;
             this.lbl5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbl5.Location = new System.Drawing.Point(371, 103);
+            this.lbl5.Location = new System.Drawing.Point(347, 98);
             this.lbl5.Name = "lbl5";
             this.lbl5.Size = new System.Drawing.Size(78, 18);
             this.lbl5.TabIndex = 10;
@@ -121,7 +122,7 @@
             this.lbl6.AutoSize = true;
             this.lbl6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbl6.Location = new System.Drawing.Point(358, 138);
+            this.lbl6.Location = new System.Drawing.Point(334, 133);
             this.lbl6.Name = "lbl6";
             this.lbl6.Size = new System.Drawing.Size(91, 18);
             this.lbl6.TabIndex = 11;
@@ -132,7 +133,7 @@
             this.lbl8.AutoSize = true;
             this.lbl8.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbl8.Location = new System.Drawing.Point(376, 173);
+            this.lbl8.Location = new System.Drawing.Point(352, 168);
             this.lbl8.Name = "lbl8";
             this.lbl8.Size = new System.Drawing.Size(73, 18);
             this.lbl8.TabIndex = 12;
@@ -143,7 +144,7 @@
             this.lbl7.AutoSize = true;
             this.lbl7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbl7.Location = new System.Drawing.Point(610, 138);
+            this.lbl7.Location = new System.Drawing.Point(586, 133);
             this.lbl7.Name = "lbl7";
             this.lbl7.Size = new System.Drawing.Size(42, 18);
             this.lbl7.TabIndex = 13;
@@ -154,7 +155,7 @@
             this.lbl9.AutoSize = true;
             this.lbl9.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbl9.Location = new System.Drawing.Point(420, 210);
+            this.lbl9.Location = new System.Drawing.Point(423, 208);
             this.lbl9.Name = "lbl9";
             this.lbl9.Size = new System.Drawing.Size(104, 18);
             this.lbl9.TabIndex = 14;
@@ -168,9 +169,9 @@
             this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegister.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegister.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnRegister.Location = new System.Drawing.Point(319, 282);
+            this.btnRegister.Location = new System.Drawing.Point(435, 270);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(140, 40);
+            this.btnRegister.Size = new System.Drawing.Size(118, 40);
             this.btnRegister.TabIndex = 15;
             this.btnRegister.Text = "Register";
             this.btnRegister.UseVisualStyleBackColor = false;
@@ -178,74 +179,102 @@
             // 
             // txtStudNo
             // 
-            this.txtStudNo.Location = new System.Drawing.Point(153, 103);
+            this.txtStudNo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStudNo.Location = new System.Drawing.Point(129, 98);
             this.txtStudNo.Name = "txtStudNo";
-            this.txtStudNo.Size = new System.Drawing.Size(165, 21);
+            this.txtStudNo.Size = new System.Drawing.Size(185, 26);
             this.txtStudNo.TabIndex = 16;
             // 
             // txtLastName
             // 
-            this.txtLastName.Location = new System.Drawing.Point(153, 138);
+            this.txtLastName.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLastName.Location = new System.Drawing.Point(129, 133);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(165, 21);
+            this.txtLastName.Size = new System.Drawing.Size(185, 26);
             this.txtLastName.TabIndex = 17;
             // 
             // txtAge
             // 
-            this.txtAge.Location = new System.Drawing.Point(153, 173);
+            this.txtAge.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAge.Location = new System.Drawing.Point(129, 168);
             this.txtAge.Name = "txtAge";
-            this.txtAge.Size = new System.Drawing.Size(165, 21);
+            this.txtAge.Size = new System.Drawing.Size(185, 26);
             this.txtAge.TabIndex = 18;
             // 
             // dtpBirthday
             // 
-            this.dtpBirthday.Location = new System.Drawing.Point(153, 209);
+            this.dtpBirthday.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpBirthday.Location = new System.Drawing.Point(129, 204);
             this.dtpBirthday.Name = "dtpBirthday";
-            this.dtpBirthday.Size = new System.Drawing.Size(224, 21);
+            this.dtpBirthday.Size = new System.Drawing.Size(275, 26);
             this.dtpBirthday.TabIndex = 19;
             // 
             // cbProgram
             // 
+            this.cbProgram.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbProgram.FormattingEnabled = true;
-            this.cbProgram.Location = new System.Drawing.Point(458, 100);
+            this.cbProgram.Location = new System.Drawing.Point(431, 95);
             this.cbProgram.Name = "cbProgram";
-            this.cbProgram.Size = new System.Drawing.Size(243, 24);
+            this.cbProgram.Size = new System.Drawing.Size(246, 28);
             this.cbProgram.TabIndex = 20;
             // 
             // txtFirstName
             // 
-            this.txtFirstName.Location = new System.Drawing.Point(455, 138);
+            this.txtFirstName.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFirstName.Location = new System.Drawing.Point(431, 133);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(144, 21);
+            this.txtFirstName.Size = new System.Drawing.Size(144, 26);
             this.txtFirstName.TabIndex = 21;
             // 
             // txtMI
             // 
-            this.txtMI.Location = new System.Drawing.Point(658, 138);
+            this.txtMI.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMI.Location = new System.Drawing.Point(634, 133);
             this.txtMI.Name = "txtMI";
-            this.txtMI.Size = new System.Drawing.Size(43, 21);
+            this.txtMI.Size = new System.Drawing.Size(43, 26);
             this.txtMI.TabIndex = 22;
             // 
             // cbGender
             // 
+            this.cbGender.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbGender.FormattingEnabled = true;
-            this.cbGender.Location = new System.Drawing.Point(455, 170);
+            this.cbGender.Location = new System.Drawing.Point(431, 165);
             this.cbGender.Name = "cbGender";
-            this.cbGender.Size = new System.Drawing.Size(144, 24);
+            this.cbGender.Size = new System.Drawing.Size(144, 28);
             this.cbGender.TabIndex = 23;
             // 
             // txtContact
             // 
-            this.txtContact.Location = new System.Drawing.Point(530, 209);
+            this.txtContact.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContact.Location = new System.Drawing.Point(533, 204);
             this.txtContact.Name = "txtContact";
-            this.txtContact.Size = new System.Drawing.Size(171, 21);
+            this.txtContact.Size = new System.Drawing.Size(144, 26);
             this.txtContact.TabIndex = 24;
+            // 
+            // btnRecords
+            // 
+            this.btnRecords.BackColor = System.Drawing.Color.White;
+            this.btnRecords.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRecords.FlatAppearance.BorderColor = System.Drawing.Color.LightSeaGreen;
+            this.btnRecords.FlatAppearance.BorderSize = 3;
+            this.btnRecords.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRecords.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRecords.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.btnRecords.Location = new System.Drawing.Point(559, 270);
+            this.btnRecords.Name = "btnRecords";
+            this.btnRecords.Size = new System.Drawing.Size(118, 41);
+            this.btnRecords.TabIndex = 25;
+            this.btnRecords.Text = "Records";
+            this.btnRecords.UseVisualStyleBackColor = false;
+            this.btnRecords.Click += new System.EventHandler(this.btnRecords_Click);
             // 
             // FrmRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(755, 362);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(699, 336);
+            this.Controls.Add(this.btnRecords);
             this.Controls.Add(this.txtContact);
             this.Controls.Add(this.cbGender);
             this.Controls.Add(this.txtMI);
@@ -298,5 +327,6 @@
         private System.Windows.Forms.TextBox txtMI;
         private System.Windows.Forms.ComboBox cbGender;
         private System.Windows.Forms.TextBox txtContact;
+        private System.Windows.Forms.Button btnRecords;
     }
 }
